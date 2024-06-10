@@ -1,0 +1,10 @@
+Q5. State True and False:
+
+A method may be called more than once from any other method.
+Ans: True
+It is necessary for a method to return some value.
+Q6. Explore:
+Ans False
+Can the same method name be used for different methods without any conflict?
+No as having same method name there will be confusion to created to jvm that which method and it will
+show us error and program would not be able to executr.
