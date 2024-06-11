@@ -1,4 +1,3 @@
-package Methods;
 import java.util.*;
 class SquareAndDigit{
     void square(int n){
@@ -14,7 +13,7 @@ class SquareAndDigit{
         System.out.println("Total digits are "+i);;
     }
 }
-class Countdigit {
+class CountDigit {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter n natural numbers");
