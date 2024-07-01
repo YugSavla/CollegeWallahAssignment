@@ -22,7 +22,7 @@ public class Spiral {
             maxc--;
             if(minc>maxc || minr>maxr) break;
             for (int j = maxc; j >=minc; j--) {
-                arr[minr][j]=k;    
+                arr[maxr][j]=k;    
                 k++;
             }
             maxr--;
@@ -32,7 +32,7 @@ public class Spiral {
                 k++;
             }
             minc++;
-            if(minc>maxc || minr>maxr) break;
+            
 
         }
         for (int i = 0; i < arr.length; i++) {
